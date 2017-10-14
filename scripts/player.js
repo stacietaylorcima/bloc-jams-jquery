@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
   class Player {
     constructor () {
       this.currentlyPlaying = album.songs[0];
@@ -52,5 +50,3 @@ $(document).ready(function() {
   }
 
   const player = new Player();
-
-});
