@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
   const album = {
     title: 'The Colors',
     artist: 'Pablo Picasso',
@@ -13,4 +11,3 @@ $(document).ready(function() {
       { title: 'Magenta', duration: '374.22', soundFileUrl: 'assets/music/magenta.mp3' }
     ]
   };
-});
