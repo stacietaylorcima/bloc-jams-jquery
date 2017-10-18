@@ -35,5 +35,19 @@ $(document).ready(function() {
     $('#time-control input').val(percent);
   }, 1000);
 
+// I simply need to map the song.duration (from the song.element table) of the currentlyPlaying song into the 'div.total-time' section.
+
+  // $('#time-control .total-time').text(currentlyPlaying.song.duration);
+
+// or maybe a function?
+
+  // var displayTime = function() {
+  //   const duration = player.getDuration();
+  //   $('#time-control .total-time').text(duration);
+  // });
+
+  $('#volume-control input').on('input', function (event) {
+    player.setVolume(event.target.value);
+  });
 
 });
