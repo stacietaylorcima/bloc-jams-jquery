@@ -15,7 +15,7 @@
     }
 
     prettyTime(timeInSeconds) {
-        var seconds = Math.floor(timeInSeconds),
+        var seconds = Math.floor(timeInSeconds);
         var minutes = Math.floor(seconds / 60);
         seconds -= minutes*60;
         if (minutes < 10) {minutes = "0"+minutes;}
